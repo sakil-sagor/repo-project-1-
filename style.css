@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: tahoma;
+}
+h1,h2,h3,h4,h5,h6{
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+H3{
+    font-size: 30px;
+}
+H4{
+    font-size: 22px;
+}
+h5{
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+ul li{
+    margin-left: 5px;
+    display: inline-block;
+    list-style: none;
+}
+ul li a{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+ul li a:hover{
+    color: #b539cf;
+    text-decoration: underline;
+    text-decoration-color: #b539cf;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    transition: 0.5s;
+}
+textarea,
+input{
+    color: #4c4c4c;
+    width: 100%;
+    padding: 15px 15px;
+    margin: 10px 0;
+    border: none;
+    background: #F3F3F3;
+    font-size: 16px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    cursor: pointer;
+    background: #b539cf;
+    color: white;
+    font-weight: 700;
+    padding: 20px 15px;
+}
+
+input[type=submit]:hover,
+.footer-form input[type=submit]:hover{
+    background: #BD4ED4;
+    transition: 0.5s;
+}
+button{
+    color: white;
+    background: #b539cf;
+    font-size: 16px;
+    padding: 20px 20px;
+    border: 1px solid #b539cf;
+    cursor: pointer;
+}
+button:hover{
+    background: white;
+    color: #b539cf;
+    transition: 0.5s;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    padding: 100px 0;
+}
+.left{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.right{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.content-left-right:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+/* header area style start from here */
+.header-area{
+    height: 85VH;
+    background: linear-gradient( rgba(0, 0, 0, 0.71), rgba(11, 9, 9, 0.84) ), url(images/women-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-area .container{
+    padding: 0;
+}
+.menu-area{
+    height: 25%;
+    padding:50px 0 100px 0;
+    display: block;
+}
+.logo-area{
+    width:30%;
+}
+.logo-area h1{
+    color: white;
+}
+.menu{
+    margin-top: 15px;
+    width:70%;
+}
+.content-area .left-area{
+    width: 50%;
+    margin-right: 10%;
+    margin-top: 100px;
+}
+.content-area .left-area h2{
+    color: white;
+}
+.content-area .left-area p{ 
+    margin-top: 40px;
+    color: white;
+}
+.content-area .left-area button{
+    margin-top: 40px;
+}
+.content-area .right-area{
+    width: 35%;
+}
+.content-area .right-area .form{
+     background-color: white;
+     padding: 50px;
+     border-radius: 10px;
+}
+.from-up-content{
+    text-align: center;
+    padding: 10px 0;
+}
+.from-up-content h3{
+    color: black;
+}
+.from-up-content p{
+    color: #4c4c4c;
+    margin: 10px;
+}
+/* footer area style  */
+.footer-area{
+    background: #101010;
+}
+.footer-left{
+    width: 35%;
+}
+.footer-right{
+    width: 55%;
+}
+.footer-content-area h2{
+    color: white;
+    margin-top: 40px;
+}
+.footer-content-area h5{
+    color: #b539cf;
+    margin-top: 40px;
+}
+.footer-content-area p{
+    color: #acacac;
+    margin-top: 40px;
+}
+.footer-social-area{
+    margin-top: 40px;
+   margin-left: -55px;
+}
+.footer-social-area ul li a i{
+    background: transparent;
+    border: 1px solid #b539cf;
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    vertical-align: middle;
+    padding: 15px;
+}
+textarea,
+.footer-form input{
+    color: #6c757d;
+    margin: 20px 0;
+    padding-left: 0;
+    background: transparent;
+    border-bottom: 2px solid #414141;
+}
+.footer-form input:first-child{
+    width: 47%;
+    margin-right: 5%;
+}
+.footer-form input:nth-child(2){
+    width: 47%;
+}
+.footer-form input[type=submit]{
+    color: white;
+    width: 30%;
+    float: left;
+    background: #b539cf;
+    border-bottom: 2px solid #414141;
+}
+footer{
+    background: black;
+}
+footer .container{
+    padding: 50px 0;
+}
+.footer-bottom-left p{
+    color: #747474;
+}
